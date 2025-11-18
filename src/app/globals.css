@@ -8,7 +8,14 @@ html, body { margin: 0; padding: 0; }
 @reference "tailwindcss";
 
 @layer components {
-  .surface { @apply bg-white border border-gray-200 shadow-sm; }
+  .surface { @apply bg-white border border-slate-200 shadow-sm; }
   .rounded-default { @apply rounded-3xl; }
-  .badge { @apply inline-flex h-8 w-8 items-center justify-center rounded-full bg-emerald-50; }
+  .badge { @apply inline-flex h-8 w-8 items-center justify-center rounded-full bg-sky-50; }
+  .t-h1 { @apply text-5xl md:text-6xl font-bold text-gray-900; }
+  .t-h2 { @apply text-3xl md:text-4xl font-bold text-gray-900; }
+  .t-h3 { @apply text-2xl font-bold text-gray-900; }
+  .t-body { @apply text-lg text-gray-600; }
+  .t-item { @apply text-gray-700 font-medium; }
+  .t-label { @apply text-sm font-medium text-gray-700; }
+  .t-muted { @apply text-sm text-gray-500; }
 }
