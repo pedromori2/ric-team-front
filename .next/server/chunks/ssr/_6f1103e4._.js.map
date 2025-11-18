@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Pedro/Desktop/rt/frontend/src/app/layout.tsx"],"sourcesContent":["import './globals.css';\n\nexport default function RootLayout({ children }: { children: React.ReactNode }) {\n  return (\n    <html lang=\"pt-BR\">\n      <head>\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n        <title>Ricardo Team</title>\n      </head>\n      <body className=\"bg-neutral-50 text-gray-900 antialiased\">{children}</body>\n    </html>\n  );\n}"],"names":[],"mappings":";;;;;;AAEe,SAAS,WAAW,EAAE,QAAQ,EAAiC;IAC5E,qBACE,8OAAC;QAAK,MAAK;;0BACT,8OAAC;;kCACC,8OAAC;wBAAK,MAAK;wBAAW,SAAQ;;;;;;kCAC9B,8OAAC;kCAAM;;;;;;;;;;;;0BAET,8OAAC;gBAAK,WAAU;0BAA2C;;;;;;;;;;;;AAGjE","debugId":null}},
+    {"offset": {"line": 60, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Pedro/Desktop/rt/frontend/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = require('../../module.compiled').vendored[\n  'react-rsc'\n].ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,QAAQ,4HAAyBC,QAAQ,CACxD,YACD,CAACC,kBAAkB","ignoreList":[0],"debugId":null}}]
+}

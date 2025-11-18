@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+
+@reference "tailwindcss";
+
+@layer components {
+  .surface { @apply bg-white border border-gray-200 shadow-sm; }
+  .rounded-default { @apply rounded-3xl; }
+  .badge { @apply inline-flex h-8 w-8 items-center justify-center rounded-full bg-emerald-50; }
+}
